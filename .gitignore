@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*\.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+*.egg
+build/
+dist/
+
+# AWS / Secrets
+.env
+.env.local
+.aws/
+credentials
+*.pem
+*.key
+config.json
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+.cdk.staging/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
